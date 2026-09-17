@@ -1,10 +1,12 @@
 algorithme dev101
+// commentaire
+/* 
+commentaire 
+sur 
+plusieur lignes
+ */
 
 debut
     ecrire("Hello DEV101")
-    lire(a)
-    ecrire("Vous avez saisi : ", a)
-    ecrire("Fin du programme")
-    ecrire("Merci d'avoir utilisé ce programme")
-    ecrire("Au revoir !")
+   
 fin

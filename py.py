@@ -1,4 +1,5 @@
-for i in range(10):
-    print(i)
-
-print("Hello DEV101")
+a = int(input("donner la valeur de a : "))
+b = float(input("donner b : "))
+s = input("donner le nom : ")
+print("b=",b)
+print("a=",a)

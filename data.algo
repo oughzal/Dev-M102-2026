@@ -1,0 +1,8 @@
+algorithme data
+variables
+    a,b,c : entier
+debut
+    ecrire("donner la valeur de a : ")
+   lire(a)
+   ecrire("a = ",a+1," .....")
+fin
