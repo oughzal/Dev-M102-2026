@@ -1,0 +1,18 @@
+algorithme exercice3
+const
+    PI : réel = 3.14159
+
+variables
+    R,S,P : réel
+
+debut
+   // entrée
+   ecrire("donne le rayon : ")
+   lire(R)
+   //traitement
+    S = PI*R^2
+    P = 2*PI*R
+   //sortie
+   ecrireln("S = ",S)
+   ecrireln("P = ",P)
+fin

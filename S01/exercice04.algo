@@ -1,0 +1,18 @@
+algorithme exercice4
+
+variables
+    lon,lar,P,S : réel
+
+debut
+    //entrée
+    ecrire("donner la longueur : ")
+    lire(lon)
+    ecrire("donner la largeur : ")
+    lire(lar)
+    //Traitement
+    P = 2*(lon+lar)
+    S = lon*lar
+    //Sortie
+    ecrireln("la surface est : ",S)
+    ecrire("Le pérémètre est ", P)
+fin

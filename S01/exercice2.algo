@@ -1,0 +1,17 @@
+algorithme exercice2
+const
+    TVA : réel = 0.2
+var 
+    PU,TTC : reel
+    qt : entier
+début
+    // entréé
+    ecrire("Donner PU : ")
+    lire(PU)
+    ecrire("Donner Quantité : ")
+    lire(qt)
+    // Traitement
+    TTC = PU*qt*(1+TVA)
+    //Sortie
+    ecrire("TTC : ",TTC)
+fin

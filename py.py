@@ -1,5 +1,1 @@
-a = int(input("donner la valeur de a : "))
-b = float(input("donner b : "))
-s = input("donner le nom : ")
-print("b=",b)
-print("a=",a)
+print("123"*2)
