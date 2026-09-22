@@ -1,0 +1,27 @@
+algorithme exercice8
+
+variables
+    H,M,S,D : entier
+
+debut
+    ecrire("donner H : ")
+    lire(H)    
+    ecrire("donner M : ")
+    lire(M)    
+    ecrire("donner S : ")
+    lire(S)    
+    ecrire("donner D : ")
+    lire(D)
+
+    // Traitement
+    S = S + D
+    M = M + S div 60
+    S = S % 60
+
+    H = H + M div 60
+    M = M % 60
+    
+    //Sortie
+    ecrire(H,":",M,":",S)
+
+fin

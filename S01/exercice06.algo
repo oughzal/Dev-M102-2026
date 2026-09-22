@@ -1,0 +1,26 @@
+algorithme exercice6
+
+variables
+    a,b,s,st,p,d : réel
+
+debut
+    //Entrée
+    ecrire("Donner nb1 : ")
+    lire(a)
+    ecrire("Donner nb2 : ")
+    lire(b)
+
+    //Traitement
+    s = a + b 
+    st = a - b
+    p = a * b
+    d = a / b
+
+
+    // Traitement + sortie
+    ecrireln(a, " + ", b , " = ", a+b)
+    ecrireln(a, " - ", b , " = ", a-b)
+    ecrireln(a, " * ", b , " = ", a*b)
+    ecrireln(a, " / ", b , " = ", a/b)
+    
+fin
