@@ -1,0 +1,24 @@
+algorithme exercice9
+
+variables
+    Xa,Ya,Xb,Yb,D : réel
+
+debut
+    //entrée
+    ecrire("Xa : ")
+    lire(Xa)
+    ecrire("Ya : ")
+    lire(Ya)
+    ecrire("Xb : ")
+    lire(Xb)
+    ecrire("Ya : ")
+    lire(Ya)
+
+    //Traitement
+    D = racine((Xa-Xb)^2 + (Ya -Yb)^2)
+    D = ((Xa-Xb)^2 + (Ya -Yb)^2)^0.5
+
+    //Sortie
+    ecrire("D = ",D)
+    
+fin

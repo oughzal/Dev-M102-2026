@@ -1,0 +1,22 @@
+algorithme exercice10
+
+variables
+    nb1,s : entier
+
+debut
+    ecrire("nb1 : ")
+    lire(nb1)
+    s = nb1 
+    ecrire("nb2 : ")
+    lire(nb1)
+    s = s + nb1
+    ecrire("nb3 : ")
+    lire(nb1)
+    s = s + nb1
+    ecrire("nb4 : ")
+    lire(nb1)
+    s = s + nb1
+
+    ecrire("s = ",s)
+    
+fin
