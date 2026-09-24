@@ -1,0 +1,15 @@
+algorithme pair
+
+variables
+    n : entier
+
+debut
+    ecrire("donner n : ")
+    lire(n)
+
+    si n%2 == 0 alors
+        ecrire("pair")
+    sinon
+        ecrire("impaire")
+    finSi
+fin

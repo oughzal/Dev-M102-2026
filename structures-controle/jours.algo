@@ -1,0 +1,30 @@
+algorithme jours
+
+variables
+    j : entier
+
+debut
+    ecrire("donner le N° du jour : ")
+    lire(j)
+
+    si j== 1 alors
+        ecrire("Lundi")
+    sinonsi j==2 alors
+        ecrire("Mardi")
+    sinonSi j==3 alors
+        ecrire("Mercredi")
+    sinon 
+        ecrire("N° invalide")
+    finSi
+
+    selon j 
+        1 : ecrire("Lundi")
+        2 : ecrire("Lundi")
+        3 : ecrire("Lundi")
+        4 : ecrire("Lundi")
+        5 : ecrire("Lundi")
+        6 : ecrire("Lundi")
+        7 : ecrire("Lundi")
+        defaut : ecrire("N° invalide")
+    finSelon
+fin

@@ -1,0 +1,22 @@
+algorithme mention
+
+variables
+    note : réel
+
+debut
+    ecrire("donner la note : ")
+    lire(note)
+    si note<0 ou note>20 alors
+        ecrire("note invalide")
+    sinonSi note<10 alors
+        ecrire("redoublant")
+    sinonSi note<12 alors
+        ecrire("passable")
+    sinonSi note<14 alors
+        ecrire("assez bien")
+    sinonSi note<16 alors
+        ecrire("bien")
+    sinon
+        ecrire("très bien")
+    finSi
+fin

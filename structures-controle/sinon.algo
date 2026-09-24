@@ -1,0 +1,14 @@
+algorithme structureAlternative
+
+variables
+    age : entier
+
+debut
+    age = 17
+    si age >= 18 alors
+        ecrireln("Majeur")
+    sinon
+        ecrireln("Mineur")
+    finSi
+    ecrireln("fin de programme")
+fin

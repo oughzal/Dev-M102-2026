@@ -1,0 +1,12 @@
+algorithme siSimple
+
+variables
+    a : entier
+
+debut
+    a = 3
+    si a == 2 alors
+        ecrireln("Deux")
+    FinSi
+    ecrire("Fin de programme")
+fin
