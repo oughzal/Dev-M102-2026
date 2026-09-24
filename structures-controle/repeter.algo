@@ -1,0 +1,13 @@
+algorithme password
+
+variables
+    pwd, p : chaine
+
+debut
+    pwd ="123456"
+    
+    repeter
+        ecrire("password : ")
+        lire(p)
+    jusqua pwd==p
+fin

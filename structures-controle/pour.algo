@@ -1,0 +1,13 @@
+algorithme bouclePour
+
+variables
+    
+
+debut
+    pour i de 100 à 1 pas -2 faire // i = 1
+        ecrireln(i)
+    finpour
+    
+   
+    
+fin
