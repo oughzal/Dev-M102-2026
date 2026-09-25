@@ -1,0 +1,19 @@
+algorithme exercice
+
+variables
+    c : caractère
+
+debut
+    ecrire("donner un caractère : ")
+    lire(c)
+
+    si c>='0' et c<='9' alors
+        ecrire(c, " est un chiffre")
+    sinonsi c>='a' et c<='z' alors
+        ecrire(c, " est une miniscule")
+    sinonSi c>='A' et c<="Z" alors
+        ecrire(c, " est une Majuscule")
+    sinon
+        ecrire(c, " est un symbole")
+    finSi
+fin

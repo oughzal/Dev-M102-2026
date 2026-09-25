@@ -1,0 +1,17 @@
+algorithme exercice1
+
+variables
+    T : réel
+
+debut
+    ecrire("donner T : ")
+    lire(T)
+
+    si T <= 0 alors
+        ecrire("Solide")
+    sinonsi T < 100 alors
+        ecrire("Liquide")
+    sinon
+        ecrire("Gaz")
+    FinSi
+fin

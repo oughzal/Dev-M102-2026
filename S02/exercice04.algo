@@ -1,0 +1,27 @@
+algorithme exercice4
+
+variables
+    a,b,c,d,x1,x2 : réel
+
+debut
+    ecrire("a : ")
+    lire(a)
+    ecrire("b : ")
+    lire(b)
+    ecrire("c : ")
+    lire(c)
+
+    d = b*b -4*a*c
+
+    si d<0 alors
+        ecrire("pas de solution dans R")
+    sinonsi d==0 alors
+        x1 = -b/(2*a)
+        ecrire("x = ", x1)
+    sinon
+        x1 = (-b + racine(d))/(2*a)
+        x2 = (-b - racine(d))/(2*a)
+        ecrire("x1=",x1, " ; x2=",x2)
+    finSi
+    
+fin
