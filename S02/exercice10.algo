@@ -1,0 +1,31 @@
+algorithme exercice10
+
+variables
+    n,i,f : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+
+    f = 1
+    pour i de 1 à n faire
+        f = f * i
+    finPour
+    ecrireln(n,"! = ", f)
+
+    f=1
+    i=1
+    tantque i<= n faire
+        f = f * i
+        i = i+1
+    FinTantque
+    ecrireln(n,"! = ", f)
+
+    f=1
+    i=1
+    repeter
+        f = f*i
+        i = i+1
+    jusqua i> n
+    ecrireln(n,"! = ", f)
+fin

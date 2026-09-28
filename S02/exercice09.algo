@@ -1,0 +1,34 @@
+algorithme exercice9
+
+variables
+    n,i,s : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+
+    s= 0
+    pour i de 1 à n faire
+        s = s + i^2
+    finpour
+     ecrireln("la somme est ",s)
+
+     s=0
+     i = 1
+     tantque i<= n faire
+        s = s + i^2
+
+        i = i+1
+     FinTantque
+     ecrireln("la somme est ",s)
+
+     s=0
+     i=1
+     repeter
+         s = s + i^2
+        i=i+1
+     jusqua i>n
+     ecrireln("la somme est ",s)
+
+
+fin
