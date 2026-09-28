@@ -1,0 +1,47 @@
+algorithme exercice5
+
+variables
+    a,b : réel
+    op : caractère
+
+debut
+    ecrire(("donner nb1 : "))
+    lire(a)
+    ecrire(("donner nbb : "))
+    lire(b)
+    ecrire("donner l'opération (+,-,*,/) : ")
+    lire(op)
+
+        selon (op)
+        '+' : ecrire(a,"+",b,"=",a+b)
+        '-' : ecrire(a,"-",b,"=",a-b)
+        '*' : ecrire(a,"*",b,"=",a*b)
+        '/' : si b != 0 alors
+                ecrire(a,"/",b,"=",a/b)
+            sinon
+                ecrire("impossible de diviser par zéro")
+            finSi
+        defaut: ecrire("opération invalide")
+    finSelon
+
+    si op=='+' alors
+        ecrire(a,"+",b,"=",a+b)
+    sinonsi op=='-' alors
+        ecrire(a,"-",b,"=",a-b)
+    sinonsi op=='*' alors
+        ecrire(a,"*",b,"=",a*b)
+    sinonsi op=='/' alors
+        si b != 0 alors
+            ecrire(a,"/",b,"=",a/b)
+        sinon
+            ecrire("impossible de diviser par zéro")
+        finSi
+    sinon
+        ecrire("opération invalide")
+    finSi
+    
+
+
+    
+    
+fin

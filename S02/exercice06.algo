@@ -1,0 +1,54 @@
+algorithme exercice6
+
+variables
+    m : entier
+
+debut
+    ecrire("donner le N° du mois : ")
+    lire(m)
+
+    si m==1 alors
+        ecrireln("Janvier")
+    sinonSi m==2 alors
+        ecrireln("Fevrier")
+    sinonSi m==3 alors
+        ecrireln("Mars")
+    sinonSi m==4 alors
+        ecrireln("Avril")
+    sinonSi m==5 alors
+        ecrireln("Mai")
+    sinonSi m==6 alors
+        ecrireln("Juin")
+    sinonSi m==7 alors
+        ecrireln("Juillet")
+    sinonSi m==8 alors
+        ecrireln("Aout")
+    sinonSi m==9 alors
+        ecrireln("Septembre")
+    sinonSi m==10 alors
+        ecrireln("Octobre")
+    sinonSi m==11 alors
+        ecrireln("Novembre")
+    sinonSi m==12 alors
+        ecrireln("Décembre")
+    sinon
+        ecrireln("N° du mois incorrect")
+    finSi
+
+    selon (m)
+     1 : ecrireln("Janvier")
+     2 : ecrireln("Fevrier")
+     3 : ecrireln("Mars")
+     4 : ecrireln("Janvier")
+     5 : ecrireln("Janvier")
+     6 : ecrireln("Janvier")
+     7 : ecrireln("Janvier")
+     8 : ecrireln("Janvier")
+     9 : ecrireln("Janvier")
+     10 : ecrireln("Janvier")
+     11 : ecrireln("Janvier")
+     12 : ecrireln("Janvier")
+     defaut : ecrireln("N° invalide")
+finSelon
+    
+fin

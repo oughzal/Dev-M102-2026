@@ -1,0 +1,15 @@
+algorithme exercice7
+
+variables
+    a : entier
+
+debut
+    ecrire("donner l'année : ")
+    lire(a)
+
+    si a%400==0 ou (a%4==0 et a%100!=0)alors
+        ecrire(a , " est bissixtele")
+    sinon
+        ecrire(a , " n'est pas bissixtele")
+    finSi
+fin
