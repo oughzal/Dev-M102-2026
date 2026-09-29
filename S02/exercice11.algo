@@ -1,0 +1,27 @@
+algorithme exercice11
+
+variables
+    n,i,s : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+
+    s = 0
+    si n%2==0 alors
+        pour i de 2 à n pas 2 faire
+            s=s+i
+        finpour
+    sinon
+        pour i de 1 à n pas 2 faire
+            s=s+i
+        finpour
+    finSi
+    ecrireln("la somme est ", s)
+
+    s=0
+    pour i de n à 0 pas -2 faire
+        s = s + i
+    finpour 
+    ecrireln("la somme est ", s)
+fin

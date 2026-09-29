@@ -1,0 +1,19 @@
+algorithme exercice12
+
+variables
+    n,i : entier
+
+debut
+    ecrire("donner un nombre positif : ")
+    lire(n)
+
+    i=2
+    tantque i<n et n%i!=0 faire
+        i = i +1 
+    FinTantque
+    si i==n alors
+        ecrire(n , " est premier")
+    sinon
+        ecrire(n , " n'est pas premier")
+    finSi
+fin
