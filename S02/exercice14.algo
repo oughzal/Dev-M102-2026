@@ -1,0 +1,19 @@
+algorithme exercice14
+
+variables
+    n,i,u1,u2,un : entier
+
+debut
+    repeter
+    ecrire("donner un nombre >=2 : ")
+    lire(n)
+    jusqua n>=2
+    u1 =1
+    u2 = 1
+    pour i de 2 à n faire
+        un = u1 + u2
+        u1 = u2
+        u2 = un
+    finpour
+    ecrire("U",n," = ", u1)
+fin

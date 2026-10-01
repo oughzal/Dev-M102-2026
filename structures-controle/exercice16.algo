@@ -1,0 +1,13 @@
+algorithme exercice16
+
+variables
+    i,j : entier
+
+debut
+    pour i de 1 à 10 faire
+        pour j de 1 à 10 faire
+            ecrire(i*j, "\t")
+        finpour
+        ecrireln("")
+    finpour
+fin

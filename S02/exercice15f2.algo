@@ -1,0 +1,20 @@
+algorithme exercice15f2
+
+variables
+    n,i,j : entier
+
+debut
+    ecrire("donner le nombre de lignes : ")
+    lire(n)
+
+    pour i de 0 à n-1 faire
+        pour j de 0 à 2*n-1 faire
+           si j>(n div 2) - i  et j<(n div 2) +i  alors
+            ecrire("*")
+            sinon
+                ecrire(" ")
+           finsi
+        finPour
+        ecrireln("")
+    finpour
+fin

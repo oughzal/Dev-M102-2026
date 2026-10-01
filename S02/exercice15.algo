@@ -1,0 +1,20 @@
+algorithme exercice15
+
+variables
+    n,i,j : entier
+
+debut
+    ecrire("donner le nombre de lignes : ")
+    lire(n)
+
+    pour i de 0 à n-1 faire
+        pour j de 0 à n-1 faire
+            si i==0 ou j==0 ou i==n-1 ou j==n-1 ou i==j ou i+j==n-1 alors
+                ecrire("*")
+            sinon
+                ecrire(" ")
+            finsi
+        finPour
+        ecrireln("")
+    finpour
+fin
