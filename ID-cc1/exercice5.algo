@@ -1,0 +1,18 @@
+algorithme exercice5
+
+variables
+    n,i,s : entier
+
+debut
+    ecrire("donner un nombre : ")
+    lire(n)
+
+    s=0
+    pour i de 1 à n faire
+        si i%2 == 0 alors
+            ecrireln(i)
+            s = s + i
+        finsi
+    finpour
+    ecrire("la somme est ",s)
+fin
