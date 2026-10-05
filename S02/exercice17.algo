@@ -1,0 +1,24 @@
+algorithme exercice17
+
+variables
+    nb1,nb2,n : entier
+
+debut
+    nb2 = aleatoire(1,100)
+    ecrireln(nb2)
+    n=0
+    repeter
+       n = n +1 
+       ecrire("donner un nombre : ")
+       lire(nb1) 
+       si n>=5 alors
+        ecrireln("Game over")
+       sinonsi nb1==nb2 alors
+        ecrireln("vous avez trouvé le bon nombre")
+       sinonsi nb1 > nb2 alors
+        ecrireln("très grand")
+       sinon
+        ecrireln("très petit")
+       finSi
+    jusqua nb2==nb1 ou n>=5
+fin

@@ -1,0 +1,23 @@
+algorithme exercice20
+
+variables
+    n,d,gcd : entier
+
+debut
+    ecrire("donner le numérateur : ")
+    lire(n)
+    ecrire("donner le dénumérateur : ")
+    lire(d)
+    si n < d alors
+        gcd = n
+    sinon
+        gcd = d
+    finsi 
+
+    gcd = si n<d alors n sinon d   
+    tantque n%gcd !=0 et d%gcd !=0 faire
+        gcd = gcd - 1
+    FinTantque
+
+    ecrire(n,"/",d, " = ", n/gcd , "/", d/gcd)
+fin

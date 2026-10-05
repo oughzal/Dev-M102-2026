@@ -1,0 +1,16 @@
+algorithme exercice19
+
+variables
+    n,inv : entier
+
+debut
+    ecrire("donner N : ")
+    lire(n)
+
+    inv = 0
+    tantque n !=0 faire
+        inv = inv*10 + n%10
+        n = n div 10
+    FinTantque
+    ecrire("l'inverse est ",inv)
+fin
