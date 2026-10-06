@@ -1,0 +1,35 @@
+algorithme fonctions
+    var i : entier // variable globale
+    fonction somme(a:entier, b : entier):entier
+    var c : entier // variable locale
+    début
+        c = a + b
+        retourner c
+    fin
+    fonction carre(x:réel):réel
+    début
+        retourner x^2
+    fin
+    procedure etoiles(n : entier)
+    var i : entier
+        début
+        pour i de 1 à n faire
+            ecrire("*")
+        finpour
+        ecrireln("")
+    fin
+    fonction fact(n:entier):entier
+    début
+        si n==0 alors
+            retourner 1
+        sinon 
+        retourner n * fact(n-1)
+        finSi
+    fin
+    // programme principale : main
+debut
+
+    pour i de 1 à 20 faire
+        etoiles(i)
+    finPour
+fin
