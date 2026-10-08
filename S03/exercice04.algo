@@ -1,0 +1,12 @@
+algorithme exercice4
+
+fonction surface(b:réel,h:réel):réel
+début
+    retourner b*h/2
+fin
+    
+
+debut
+    ecrireln(surface(10,20))
+    ecrireln(surface(8,7))
+fin

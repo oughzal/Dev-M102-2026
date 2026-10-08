@@ -1,0 +1,59 @@
+algorithme exercice5
+
+fonction max(a:réel,b:réel,c:réel):réel
+var m : réel
+début
+    // a=8 , b=2 , c =9
+    m = a // m = 8
+    si b > m alors
+        m =b
+    finSi
+    si c > m alors
+        m = c // m = 9
+    finSi
+    retourner m 
+fin
+
+fonction max2(a:réel,b:réel,c:réel):réel
+début
+    // a=8 , b=2 , c =9
+    si a>=b et a>=c alors
+        retourner a
+            
+    sinonSi b>=a et b>=c alors
+        retourner b   
+    sinon
+        retourner c
+    finsi
+fin
+
+fonction max3(a:réel,b:réel,c:réel):réel
+début
+    // a=8 , b=2 , c =9
+    si a>=b alors
+        si a>=c alors
+            retourner a
+        sinon
+            si b>=c alors
+                retourner b
+            sinon
+                retourner c
+            finsi
+        finsi
+    sinon 
+        si b>=c alors
+            retourner b
+        sinon
+            si a>=c alors
+                retourner a
+            sinon
+                retourner c
+            finsi
+        finsi
+    finSi
+fin
+debut
+    ecrireln(max(8,2,9))
+    ecrireln(max2(8,2,9))
+    ecrireln(max3(8,2,9))
+fin

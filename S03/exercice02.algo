@@ -1,0 +1,17 @@
+algorithme exercice2
+
+procedure valeurPair(M:entier, N : entier)
+var i : entier
+debut
+    si m<n alors
+        pour i de M à N faire
+            si i%2 == 0 alors
+                ecrireln(i)
+            finSi
+        finPour
+    finSi
+    fin    
+
+debut
+    valeurPair(50,30)
+fin

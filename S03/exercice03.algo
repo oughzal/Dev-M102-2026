@@ -1,0 +1,17 @@
+algorithme exercice3
+
+fonction valeurAbs(x : réel) : réel
+debut
+    si x>=0 alors
+        retourner x
+    sinon
+        retourner -x
+    finSi
+    retourner si x>=0 alors x sinon -x
+fin
+    
+
+debut
+   ecrireln(valeurAbs(9)) 
+   ecrireln(valeurAbs(-15)) 
+fin
