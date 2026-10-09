@@ -12,11 +12,11 @@ debut
     ecrire("donner l'opération (+,-,*,/) : ")
     lire(op)
 
-        selon (op)
-        '+' : ecrire(a,"+",b,"=",a+b)
-        '-' : ecrire(a,"-",b,"=",a-b)
-        '*' : ecrire(a,"*",b,"=",a*b)
-        '/' : si b != 0 alors
+    selon (op)
+        cas '+' : ecrire(a,"+",b,"=",a+b)
+        cas '-' : ecrire(a,"-",b,"=",a-b)
+        cas '*' : ecrire(a,"*",b,"=",a*b)
+        cas '/' : si b != 0 alors
                 ecrire(a,"/",b,"=",a/b)
             sinon
                 ecrire("impossible de diviser par zéro")
@@ -24,6 +24,7 @@ debut
         defaut: ecrire("opération invalide")
     finSelon
 
+    ecrireln("")
     si op=='+' alors
         ecrire(a,"+",b,"=",a+b)
     sinonsi op=='-' alors
