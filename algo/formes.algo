@@ -9,7 +9,7 @@ debut
     pour i de 0 à n-1 faire
         pour j de 0 à n-1 faire
             si i==0 ou i==n-1 ou j==0 ou j==n-1 ou i==j ou i+j == n-1 alors
-                ecrire("*")
+                ecrire(".")
             sinon
                 ecrire(" ")
             finSi
