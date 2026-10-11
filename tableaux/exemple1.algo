@@ -1,0 +1,12 @@
+Algorithme exercice1
+Variables
+    M : tableau[4][5] de entier
+    T : tableau[5] de entier
+    S, i : entier
+Début
+    T = [10, 20, 30, 40, 50]
+
+    ecrireln(longueur(T))
+    ecrireln(M)
+    ecrireln(longueur("tableau"))
+Fin
