@@ -1,0 +1,17 @@
+algorithme exercice8
+
+fonction estPair(n:entier):booléen
+début
+    si n%2==0 alors
+        retourner vrai
+    sinon
+        retourner faux
+    finsi
+    retourner n%2==0
+fin
+    
+
+debut
+    ecrireln(estPair(4))
+    ecrireln(estPair(1))
+fin

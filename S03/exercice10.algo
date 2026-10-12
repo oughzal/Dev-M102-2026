@@ -1,0 +1,16 @@
+algorithme exercice10
+
+fonction fibonacci(n:entier):entier
+début
+    si n==1 ou n==2 alors
+        retourner 1
+    sinon
+        retourner fibonacci(n-1) + fibonacci(n-2)
+    finsi
+fin
+    
+
+debut
+   ecrireln(fibonacci(8)) 
+   ecrireln(fibonacci(9)) 
+fin

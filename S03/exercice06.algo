@@ -1,0 +1,17 @@
+algorithme exercice6
+var
+    n : entier
+procedure tableMultiplication(n : entier)
+var i : entier
+debut
+    pour i de 1 à 10 faire
+        ecrireln(n ," x ", i , " = ", n*i)
+    finpour
+fin
+    
+
+debut
+   ecrire("donner un nombre : ") 
+   lire(n)
+   tableMultiplication(n)
+fin

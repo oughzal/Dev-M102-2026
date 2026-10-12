@@ -1,0 +1,22 @@
+algorithme exercice9
+
+fonction estPremier(n:entier):booléen
+var i : entier
+début
+    si n==1 ou n==2 alors
+        retourner vrai
+    finsi
+    pour i de 2 à n-1 faire
+        si n%i ==0 alors
+            retourner faux
+        finsi
+    finpour
+    retourner vrai
+fin
+    
+
+debut
+    ecrireln(estPremier(11))
+    ecrireln(estPremier(19))
+    ecrireln(estPremier(20))
+fin

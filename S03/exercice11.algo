@@ -1,0 +1,17 @@
+algorithme exercice11
+
+fonction partieEntiere(x:réel):entier
+var i :entier
+début
+    tantque i<=x faire
+        i = i +1
+    fintantque
+    retourner i-1
+fin
+    
+
+debut
+    ecrireln(partieEntiere(3.14))
+    ecrireln(partieEntiere(8.0))
+    ecrireln(partieEntiere(21.236))
+fin

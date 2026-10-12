@@ -1,0 +1,35 @@
+algorithme exercice12_13
+
+fonction estBissextele(a:entier):booléen
+début
+    retourner a%400==0 ou (a%4==0 et a%100!=0)
+fin
+
+fonction dateValide(j:entier,m:entier,a:entier):booléen
+
+début
+    si j<1 ou j>31 ou m<1 ou m>12 alors
+        retourner faux
+    sinonsi j==31 et (m==2 ou m==4 ou m==6 ou m==9 ou 11) alors
+        retourner faux
+    sinonSi j==30 et m==2 alors
+        retourner faux
+    sinonSi j==29 et m==2 et non estBissextele(a) alors
+        retourner faux  
+    sinon
+        retourner vrai
+    finsi
+fin
+
+debut
+    ecrireln(estBissextele(2026))
+    ecrireln(estBissextele(2028))
+    ecrireln(estBissextele(1900))
+    ecrireln(estBissextele(1600))
+    ecrireln("date valide")
+    ecrireln(dateValide(12,10,2026))
+    ecrireln(dateValide(31,11,2026))
+    ecrireln(dateValide(30,2,2026))
+    ecrireln(dateValide(29,2,2026))
+    ecrireln(dateValide(29,2,2028))
+fin

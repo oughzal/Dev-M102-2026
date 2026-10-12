@@ -1,0 +1,19 @@
+algorithme exercice7
+
+fonction multiplication(a:entier, b:entier):entier
+var i,s : entier
+debut
+    s=0
+    pour i de 1 à b faire
+        s = s + a
+    finpour
+    retourner s
+fin
+    
+
+debut
+    ecrireln(multiplication(4,5))
+    ecrireln(multiplication(15,4))
+    ecrireln(multiplication(20,10))
+    ecrireln(multiplication(40,5))
+fin
