@@ -1,0 +1,19 @@
+algorithme exercice1
+
+variables
+    T : tableau[5] de entier
+    i : entier
+debut
+    T[0] = 10
+    T[1] = 20
+    T[2] = 30
+    T[4] = 40
+    T = [10,20,30,40,50]
+    T[0] = 15
+    T[2] = T[2]*2
+    ecrireln("la somme est ", T[1]+T[3])
+
+    pour i de 0 à 4 faire
+        ecrireln("T[",i,"] = ", T[i])
+    finpour
+fin

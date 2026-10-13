@@ -1,0 +1,12 @@
+algorithme exercice1
+
+variables
+    T : tableau[10] de entier
+    i : entier
+
+debut
+    pour i de 0 à 9 faire
+        T[i] = 5
+    finpour
+    ecrireln("T : ",T)
+fin

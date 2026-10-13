@@ -1,0 +1,18 @@
+algorithme exemple2
+
+variables
+    notes : tableau[5] de réel
+    i : entier
+
+debut
+   pour i de 0 à 4 faire
+        ecrire("donner la note ",i+1," : ")
+        lire(notes[i])
+   finpour
+   ecrireln("notes : " , notes)
+
+   pour i de 0 à 4 faire
+    ecrireln(notes[i]," x 3 = ",notes[i]*3)
+   finpour
+
+fin

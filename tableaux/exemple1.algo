@@ -1,12 +1,27 @@
-Algorithme exercice1
-Variables
-    M : tableau[4][5] de entier
-    T : tableau[5] de entier
-    S, i : entier
-Début
-    T = [10, 20, 30, 40, 50]
-
-    ecrireln(longueur(T))
-    ecrireln(M)
-    ecrireln(longueur("tableau"))
-Fin
+Algorithme exemple1
+variables
+    n1,n2,n3,n4,n5 : réel
+    s : réel
+début
+    ecrire("donner le note 1 : ")
+    lire(n1)
+    ecrire("donner le note 2 : ")
+    lire(n2)
+    ecrire("donner le note 3 : ")
+    lire(n3)
+    ecrire("donner le note 4 : ")
+    lire(n4)
+    ecrire("donner le note 5 : ")
+    lire(n5)
+    pour i de 1 à 5 faire
+        ecrire("donner la note ",i, " : ")
+        lire(ni)
+    finpour
+     s = n1 + n2 + n3 + n4 +n5
+    ecrire(n1," x 3 =",n1*3)
+    ecrire(n2," x 3 =",n2*3)
+    ecrire(n3," x 3 =",n3*3)
+    ecrire(n4," x 3 =",n4*3)
+    ecrire(n5," x 3 =",n5*3)
+    
+fin

@@ -1,0 +1,16 @@
+algorithme exercice2
+
+variables
+    T : tableau[100] de réel
+    N,i : entier
+
+debut
+    ecrire("donner le nombre des notes : ")
+    lire(n)
+
+    pour i de 0 à N -1 faire
+        ecrire("donner le note ",i+1 , " : ")
+        lire(T[i])
+    finpour
+    ecrireln(T)
+fin

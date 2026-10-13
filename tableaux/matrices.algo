@@ -1,0 +1,14 @@
+algorithme matrices
+
+variables
+    M : tableau[5][4] de entier
+    i,j : entier
+
+debut
+    pour i de 0 à 4 faire
+        pour j de 0 à 3 faire
+            M[i][j] = i+j
+        finpour
+    finpour
+    ecrireln("M : " , M)
+fin
