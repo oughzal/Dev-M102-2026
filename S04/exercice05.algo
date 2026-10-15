@@ -1,0 +1,20 @@
+algorithme exercice5
+
+variables
+    T : tableau[10] de entier
+    N,i,X : entier
+
+debut
+    T =[15,80,7,36,70,8,45,2,7,0]
+    N = 10
+    ecrire("donner X : ")
+    lire(X)
+
+    ecrireln("T :",T)
+
+    pour i de 0 à N-1 faire
+        T[i] = T[i] + x
+    Finpour
+
+    ecrire("T :",T)
+fin

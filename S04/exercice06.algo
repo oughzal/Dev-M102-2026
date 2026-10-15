@@ -1,0 +1,23 @@
+algorithme exercice6
+
+variables
+    T : tableau[10] de réel
+    N,i : entier
+    S : réel
+
+debut
+    T = [10.5,15,18.0,17.6,5,9,20,2,14,19]
+    N= 10
+    S = 0
+    pour i de 0 à N-1 faire
+        S = S + T[i]
+    finpour
+    S = S/N
+    ecrireln("la moyenne des notes est",s)
+
+    pour i de 0 à N-1 faire
+        si T[i]>=S alors
+            ecrireln(T[i])
+        finsi
+    finpour
+fin

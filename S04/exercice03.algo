@@ -1,0 +1,27 @@
+algorithme exercice3
+
+variables
+    T  : tableau[100] de entier
+    N,i,s,p : entier
+    m : réel
+
+debut
+    // remplir le tableau
+    ecrire("écrire donner le nombre d'élément du tableau : ")
+    lire(N)
+
+    pour i de 0 à N-1 faire
+        ecrire("donner T[",i,"] : ")
+        lire(T[i])
+    finpour
+    s=0
+    p=1
+    pour i de 0 à N-1 faire
+        s = s + T[i]
+        p = p * T[i]
+    finpour
+    m = s/n
+    ecrireln("la somme est ",s)
+    ecrireln("le produit est ",p)
+    ecrireln("la moyenne est ",m)
+fin

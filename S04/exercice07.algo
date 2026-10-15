@@ -1,0 +1,21 @@
+algorithme exercice7
+
+variables
+    T : tableau[10] de entier
+    N,i,Sn,Sp : entier
+
+debut
+    T = [-1,2,-8,-3,7,9,-5,8,-8,0]
+    N = 10
+    Sn = 0
+    Sp = 0
+    pour i de 0 à N-1 faire
+        si T[i]>0 alors
+            Sp = Sp + T[i]
+        sinon
+            Sn = Sn + T[i]
+        finSi
+    finpour
+    ecrireln("la somme des positifs est ",Sp)
+    ecrireln("la somme des négatifs est ",Sn)
+fin
