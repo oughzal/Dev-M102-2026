@@ -1,0 +1,22 @@
+algorithme exercice12
+
+variables
+    T : tableau[10] de entier
+    i,j,N,tmp : entier
+
+debut
+
+    T = [1,2,3,4,5,6]
+    N =6
+    ecrireln(T)
+    i=0
+    j=N-1
+    tantque i<j faire
+        tmp = T[i]
+        T[i] = T[j]
+        T[j] = tmp
+        i = i+1
+        j = j-1
+    finTantque
+    ecrireln(T)
+fin

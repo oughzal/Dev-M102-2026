@@ -1,0 +1,36 @@
+algorithme exercice9
+
+variables
+    T : tableau[10] de entier
+    i,j,c,N,p,V : entier
+    
+
+debut
+    T = [1,2,3,4,5,6,7,8,9,10] 
+    N = 10
+    ecrire("donner une nombre : ")
+    lire(v)
+    p = -1
+    pour i de 0 à N-1 faire
+        si T[i]==v alors
+            p = i
+        finsi
+    finpour
+    ecrireln("la position de ",V, " est ", p)
+
+    i=0
+    j = N-1
+    
+    tantque i<j et T[c] != V faire
+        c =(j+i) div 2
+        si V > T[i] alors
+            i = c + 1
+        sinon
+            j = c-1
+        finSi 
+    finTantque
+
+    p = si T[c]==V alors c sinon -1
+    ecrireln("la position de ",V, " est ", p)
+
+fin

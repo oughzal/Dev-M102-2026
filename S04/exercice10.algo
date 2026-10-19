@@ -1,0 +1,22 @@
+algorithme exercice10
+
+variables
+    T : tableau[10] de entier
+    i,j,N,c :entier
+
+
+debut
+    T = [1,2,1,4,5,20,4,7,7,9,1] 
+    N = 10 
+    pour i de 0 à N-1 faire
+        c = 0
+        pour j de 0 à N-1 faire
+            si i!=j et T[i]==T[j]alors
+                c = c +1
+            finsi
+        finpour
+        si c==0 alors
+            ecrire(T[i],"\t")
+        finsi
+    finpour
+fin

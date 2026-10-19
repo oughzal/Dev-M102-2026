@@ -1,0 +1,24 @@
+algorithme exercice11
+
+variables
+    T1,T2,T3 : tableau[20] de entier
+    i,N,M,L : entier
+
+debut
+    T1 = [1,2,3,4]
+    N = 4
+    T2 = [1,2,3,4,5,6,7]
+    M = 7
+
+    L=0
+    pour i de 0 à N-1 faire
+        T3[L] = T1[i]
+        L = L+1
+    finpour
+
+        pour i de 0 à M-1 faire
+        T3[L] = T2[i]
+        L = L+1
+    finpour
+    ecrireln("T3 :",T3 ,";  taille :",L)
+fin
