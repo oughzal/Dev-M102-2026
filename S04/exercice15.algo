@@ -1,0 +1,35 @@
+algorithme exercice15
+
+variables
+    M : tableau[5][4] de réel
+    i,j : entier
+    moy,mc : réel
+
+debut
+    pour i de 0 à 4 faire
+        pour j de 0 à 3 faire
+            ecrire("donner la note de l'étudiant ", i+1, " dans la matière ", j+ 1 , " : ")
+            lire(M[i][j])
+        finpour
+    finpour
+    mc = 0
+    pour i de 0 à 4 faire
+        moy = 0
+        pour j de 0 à 3 faire
+            moy = moy + M[i][j]
+        finpour
+        moy = moy/4
+        mc = mc + moy
+        ecrireln("la moyenne de l'étudiant",i+1," est ",moy)
+    finpour
+    mc = mc /5
+    pour j de 0 à 3 faire
+        moy = 0
+        pour i de 0 à 4 faire
+            moy = moy + M[i][j]
+                    finpour
+        moy = moy/4
+        ecrireln("la moyenne de l'étudiant",i+1," est ",moy)
+    finpour
+
+fin

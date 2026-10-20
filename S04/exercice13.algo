@@ -1,0 +1,17 @@
+algorithme exercice13
+
+variables
+    T1,T2,T3 : tableau[10] de entier
+    i,N : entier
+
+debut
+    T1 = [1,2,3,4,5,6,7,8,9,10]
+    T2 = [1,2,3,4,5,6,7,8,9,10]
+    N = 10
+    pour i de 0 à N-1 faire
+        T3[i] =T1[i] +T2[i]
+    finpour
+    ecrireln("T1 : ", T1)
+    ecrireln("T2 : ", T2)
+    ecrireln("T3 : ", T3)
+fin

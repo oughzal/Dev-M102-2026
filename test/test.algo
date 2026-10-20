@@ -1,24 +1,8 @@
-algorithme test
 
-variables
-    a,i : entier
-    b : entier
-    T : tableau[100] de entier
-    procedure afficher()
-    var i : entier
-    debut
-    ecrire("T = [")
-      pour i de 0 à 99 faire
-        ecrire(T[i],", ")
-      finpour
-      ecrireln("]")
-    fin
-debut
-    
-    pour i de 0 à 99 faire
-        T[i] = i
-    finPour
-    
-    afficher()
-    ecrireln("T = ",T)
-fin
+Kotlin
+if (condition) {
+    instructions1
+} else {
+    instructions2
+}
+

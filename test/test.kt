@@ -1,3 +1,5 @@
 fun main() {
-   val d = LocalDateTime.now() 
+   val x = "rest".reversed()
+   println(x)
+   
 }
