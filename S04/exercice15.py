@@ -15,4 +15,4 @@ for i in range(5):
         mc +=moy
         print("la moyenne de l'étudiant",i+1," est ",moy)
     mc /=5
-    print(f"la moyenne de la classe est {mc}")
+    print(f"la moyenne de la classe est {mc}")                                            
