@@ -3,7 +3,7 @@ package ma.ofppt
 fun main() {
     print("donner la note : ")
     var note = readln().toDouble()
-    if (note <0 || note >20){
+    if (note !in 0.0..20.0){
         print("note invalide")
     }else if(note<10){
         print("redoublant")

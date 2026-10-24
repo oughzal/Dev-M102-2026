@@ -1,8 +1,8 @@
-package ma
+package ma.ofppt
 
 fun main() {
-    var name :String = "Name 1"
-    var age : Int = 20
+    var name = "Name 1"
+    var age = 20
     var admis : Boolean = true
     var firstChar : Char = 'N'
     
