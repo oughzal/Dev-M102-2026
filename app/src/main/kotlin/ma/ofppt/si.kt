@@ -17,7 +17,7 @@ fun main() {
        print("trez bien") 
     }
     
-    val mention = if (note <0 || note >20){
+    val mention = if (note !in 0.0..20.0){
         "note invalide"
     }else if(note<10){
         "redoublant"
@@ -32,6 +32,7 @@ fun main() {
     }
     
     
-    val c = (1==1)? 2 : 3
+    val condition = 1 == 1
+    val c = if (condition) 2 else 3
     
 }
