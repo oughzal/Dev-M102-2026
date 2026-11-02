@@ -1,0 +1,3 @@
+print(ord("ا"))
+print(ord("A"))
+print(ord("a"))

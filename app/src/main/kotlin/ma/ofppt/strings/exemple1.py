@@ -1,0 +1,5 @@
+nom = input("donner le nom du stagiaire : ")
+print(f"nom : {nom}")
+print(f"longueur : {len(nom)}")
+print(f"1ier caractère : {nom[0]}")
+print(f"dernier caractère : {nom[-1]}")
