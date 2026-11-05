@@ -1,0 +1,1 @@
+print("devoam101".replace(r"[oieauy]","_"))
