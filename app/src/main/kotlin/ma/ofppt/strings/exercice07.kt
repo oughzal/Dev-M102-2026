@@ -13,7 +13,9 @@ fun verifierIdentifiant(s: String): Boolean{
 
 fun main() {
     println(verifierIdentifiant("1dev101"))
-    println(verifierIdentifiant("dev101"))
+    println(verifierIdentifiant("dev101 "))
     println(verifierIdentifiant("dev10"))
     print(verifierIdentifiant("de@v10"))
 }
+
+
